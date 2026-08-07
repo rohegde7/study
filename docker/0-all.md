@@ -8,6 +8,21 @@
 ### Commands
 - `docker pull <image-name>`
   -   ex: docker pull docker/getting-started
+- `docker images`
+- `docker run`
+- `docker run -d -p hostport:containerport namespace/name:tag`
+  - ex: docker run  docker/getting-started
+  - docker run -d -p 8965:80 docker/getting-started:latest
+  - `-d`: Run in detached mode (doesn't block your terminal)
+  - `-p`: Publish a container's port to the host (forwarding)
+  - `hostport`: The port on your local machine
+  - `containerport`: The port inside the container
+  - `namespace/name`: The name of the image (usually in the format username/repo)
+  - `tag`: The version of the image (often latest)
+- `docker ps` -> to see the running containers
+- `docker stop CONTAINER_ID`
+- `docker start CONTAINER_ID` -> start the already existing container
+- `docker kill CONTAINER_ID`
 - 
 
 
@@ -26,4 +41,8 @@
 ### Future topic yet not learnt
 - `image layers`
 - Isolate containers with a user `namespace`
+
+
+### Doubts
+- why is disk size bigger than content size ? -> try command docker images
 - 
