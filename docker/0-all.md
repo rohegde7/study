@@ -15,7 +15,9 @@
   - ex: docker run  docker/getting-started
   - docker run -d -p 8965:80 docker/getting-started:latest
   - `-d`: Run in detached mode (doesn't block your terminal)
+  - `-e`: Used to set environment variables -> `-e NODE_ENV=development -e url=http://localhost:3001`
   - `-p`: Publish a container's port to the host (forwarding)
+  - `-v`: Mounts the volume to a folder inside the container -> `-v ghost-vol:/var/lib/ghost ghost`
   - `hostport`: The port on your local machine
   - `containerport`: The port inside the container
   - `namespace/name`: The name of the image (usually in the format username/repo)
