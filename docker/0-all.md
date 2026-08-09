@@ -4,6 +4,7 @@
 - "Docker server" or "Docker Daemon" -> This listens to requests from the desktop app and executes them. If this isn't running nothing else will work.
 - `Docker Hub` is the official cloud service for storing and sharing Docker images
 - `container`
+- `Storage Volumes`
 
 ### Commands
 - `docker pull <image-name>`
@@ -23,7 +24,9 @@
 - `docker stop CONTAINER_ID`
 - `docker start CONTAINER_ID` -> start the already existing container
 - `docker kill CONTAINER_ID`
-- 
+- `docker volume create ghost-vol`
+- `docker volume ls`
+- `docker volume inspect ghost-vol`
 
 
 ### Interview Questions
