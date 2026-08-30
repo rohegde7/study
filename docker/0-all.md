@@ -27,9 +27,10 @@
 - `docker start CONTAINER_ID` -> start the already existing container
 - `docker restart <CONTAINER_ID>`
 - `docker kill CONTAINER_ID`
-- `docker volume create ghost-vol` -> Creates a volume outside all docker containers
+- `docker volume create <VOL_NAME>` -> Creates a volume outside all docker containers
 - `docker volume ls`
-- `docker volume inspect <VOLUME_NAME>`
+- `docker volume inspect <VOL_NAME>`
+- `docker volume rm <VOL_NAME>`
 
 
 ### Interview Questions
