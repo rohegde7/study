@@ -17,12 +17,12 @@
   - `-d`: Run in detached mode (doesn't block your terminal)
   - `-p`: Publish a container's port to the host (forwarding). 8080 is our local machine's port. 1234 is the container's port. so `localhost:8080` will goto port `1234` on which the container is listening/running.
   - `-e`: Used to set environment variables -> `-e NODE_ENV=development -e url=http://localhost:3001`
-  - `-v`: Mounts the volume to a folder inside the container -> `-v ghost-vol:/var/lib/ghost ghost` -> `-v <volume-name>:<path-inside-container>`.`ghost-vol` is the volume name. `/var/lib/ghost` is the path in which the image/container actually writes data when it's running. `ghost` is the name of the image.
+  - `-v`: Mounts the volume to a folder inside the container -> `-v ghost-vol:/var/lib/ghost ghost` -> `-v <volume-name>:<path-inside-container>`.`ghost-vol` is the volume name. `/var/lib/ghost` is the path in which the image/container actually writes data when it's running. `ghost` is the name of the image. if `ghost-vol` exists then it mounts to it, otherwise it creates a volume by that name.
   - `hostport`: The port on your local machine
   - `containerport`: The port inside the container
   - `namespace/name`: The name of the image (usually in the format username/repo)
   - `tag`: The version of the image (often latest)
-- `docker ps` -> to see the running containers. `-a` -> all. Option shows the stopped containers as well.
+- `docker ps` -> to see the running containers. `-a` -> all. Option shows the stopped containers as well. `-q` → quiet → show only container IDs in output.
 - `docker stop CONTAINER_ID`
 - `docker start CONTAINER_ID` -> start the already existing container
 - `docker restart <CONTAINER_ID>`
