@@ -13,11 +13,11 @@
 - `docker run`
 - `docker run -d -p hostport:containerport namespace/name:tag`
   - ex: docker run  docker/getting-started
-  - docker run -d -p 8965:80 docker/getting-started:latest
+  - docker run -d -p 8080:1234 docker/getting-started:latest
   - `-d`: Run in detached mode (doesn't block your terminal)
+  - `-p`: Publish a container's port to the host (forwarding). 8080 is our local machine's port. 1234 is the container's port. so `localhost:8080` will goto port `1234` on which the container is listening/running.
   - `-e`: Used to set environment variables -> `-e NODE_ENV=development -e url=http://localhost:3001`
-  - `-p`: Publish a container's port to the host (forwarding)
-  - `-v`: Mounts the volume to a folder inside the container -> `-v ghost-vol:/var/lib/ghost ghost`
+  - `-v`: Mounts the volume to a folder inside the container -> `-v ghost-vol:/var/lib/ghost ghost` -> `ghost-vol` is the volume name. `/var/lib/ghost` is the path in which the image/container actually writes data when it's running. `ghost` is the name of the image
   - `hostport`: The port on your local machine
   - `containerport`: The port inside the container
   - `namespace/name`: The name of the image (usually in the format username/repo)
@@ -26,15 +26,22 @@
 - `docker stop CONTAINER_ID`
 - `docker start CONTAINER_ID` -> start the already existing container
 - `docker kill CONTAINER_ID`
-- `docker volume create ghost-vol`
+- `docker volume create ghost-vol` -> Creates a volume outside all docker containers
 - `docker volume ls`
 - `docker volume inspect ghost-vol`
 
 
 ### Interview Questions
 - Why Are Containers Lightweight? as compared to VMs
-- 
 
+
+### Imp things
+
+#### Containers and Volumes
+- A container's file system is read-write, but when you delete a container, and start a new one from the same image, that new container starts from scratch again with a copy of the image. All stateful changes are lost.
+- A volume's file system is read-write, but it lives outside a single container. If a container uses a volume, then stateful changes can be persisted to the volume even if the container is deleted.
+- Volumes are often used by applications like Ghost, Grafana, or WordPress to persist data so that when a container is deleted and a new one is created the state of the application isn't lost. Containerized applications are typically thought of as ephemeral (temporary). If your application breaks just because you deleted and recreated a container... it's not a very good containerization!
+- 
 
 
 ### To recap / learn 
@@ -49,5 +56,5 @@
 
 
 ### Doubts
-- why is disk size bigger than content size ? -> try command docker images
+- 
 - 
