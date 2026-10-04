@@ -1,6 +1,7 @@
 # Maths
 
 ## All Links
+- Drive link: https://drive.google.com/drive/folders/1pyh0GLO-q5NRQxEDJqoP-RCgLHUQjXAZ 
 - Discord Link for Learners: https://discord.gg/zXNUmw6qjE
 - Invite Code for Learners: SPzMndxDct
 
@@ -26,12 +27,14 @@
 - Classification types
   - Binary
   - Multiclass
+- Decision boundaries - L1, L2:
+- <img width="605" height="382" alt="Screenshot 2026-10-05 at 1 06 19 AM" src="https://github.com/user-attachments/assets/351fada3-3b7d-46c8-8b6d-884c346a2ab4" />
+- 
 
 
 ### Rewatch / Doubts
 - 18:00 - 20:00 slide
 - 40:00 - 44:00 (Clustering task slide)
 - If ML is a subset of AI, how much of Scaler Companion feature is AI and how much is ML ?
-- 47:00 - 50:00
 - All after 50:00
-- 
+- confidence interval
