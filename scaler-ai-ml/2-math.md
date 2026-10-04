@@ -29,7 +29,8 @@
   - Multiclass
 - Decision boundaries - L1, L2:
 - <img width="605" height="382" alt="Screenshot 2026-10-05 at 1 06 19 AM" src="https://github.com/user-attachments/assets/351fada3-3b7d-46c8-8b6d-884c346a2ab4" />
-- 
+- Question: Can the above points be classified by 1 decision boundary? Ans - YES. How?
+- **Outliers** are data points that are unusually far away from the rest of the data.
 
 
 ### Rewatch / Doubts
