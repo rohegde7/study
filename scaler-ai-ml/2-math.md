@@ -4,6 +4,7 @@
 - Drive link: https://drive.google.com/drive/folders/1pyh0GLO-q5NRQxEDJqoP-RCgLHUQjXAZ 
 - Discord Link for Learners: https://discord.gg/zXNUmw6qjE
 - Invite Code for Learners: SPzMndxDct
+- https://www.desmos.com/calculator
 
 ## Lec 1
 
@@ -31,6 +32,13 @@
 - <img width="605" height="382" alt="Screenshot 2026-10-05 at 1 06 19 AM" src="https://github.com/user-attachments/assets/351fada3-3b7d-46c8-8b6d-884c346a2ab4" />
 - Question: Can the above points be classified by 1 decision boundary? Ans - YES. How?
 - **Outliers** are data points that are unusually far away from the rest of the data.
+- Linear & Non-Linear Decision boundary
+- Loss Function - (future classes) - helps us find misclassifications
+- Cartisian plane
+- y = mx + c -> y is not the target - not the right way of looking at it
+- m == slope - slope is the orientation of the line. Angle wrt to x changes as m changes. 
+- c == intercept
+- 
 
 
 ### Rewatch / Doubts
@@ -39,3 +47,6 @@
 - If ML is a subset of AI, how much of Scaler Companion feature is AI and how much is ML ?
 - All after 50:00
 - confidence interval
+- Cartisian plane
+- y = mx + c
+- 
