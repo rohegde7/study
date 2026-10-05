@@ -68,9 +68,10 @@
 - <img width="688" height="431" alt="Screenshot 2026-10-05 at 9 19 16 PM" src="https://github.com/user-attachments/assets/da2d4a85-e800-4342-9117-35d16d0940fd" />
 - ||x|| = root(x square + y square)
 
-- Unit vector:
-- <img width="859" height="545" alt="Screenshot 2026-10-05 at 10 03 58 PM" src="https://github.com/user-attachments/assets/26de536d-7edc-44cb-b05c-86b9ce995a22" />
+- Unit vector: (just to reduce the number of operations, we use unit vectors)
+- <img width="854" height="590" alt="Screenshot 2026-10-05 at 10 05 35 PM" src="https://github.com/user-attachments/assets/d9088550-b2f2-458f-bae5-7da2bc029cf0" />
 - 
+
 
 
 
@@ -84,5 +85,5 @@
 - which will have smaller angle? <img width="653" height="322" alt="Screenshot 2026-10-05 at 9 24 06 PM" src="https://github.com/user-attachments/assets/5872754c-7472-49db-bddb-9fd8af30ba96" />
 - cos@, tan@, sin@ table
 - 40:00 +
-- 
+- 1:23:00 after break
 
