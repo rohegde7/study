@@ -36,8 +36,10 @@
 - Loss Function - (future classes) - helps us find misclassifications
 - Cartisian plane
 - y = mx + c -> y is not the target - not the right way of looking at it
-- m == slope - slope is the orientation of the line. Angle wrt to x changes as m changes. 
+- m == slope - slope is the orientation of the line. Angle wrt to x changes as m changes.
+- m = tan(theta)
 - c == intercept
+- General line eq: ax + by + c = 0
 - 
 
 
