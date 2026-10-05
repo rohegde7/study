@@ -51,4 +51,38 @@
 - confidence interval
 - Cartisian plane
 - y = mx + c
+
+
+
+## Lec 3 - Halfspaces & Distances
+
+### Links
+- [Pre read]()
+
+### Topics
+- Angle between 2 vectos
+- Types of distances: Manhattan, Eucledian
+- What is our end goal? Decision Boundary
+- w1x1 + w2x2 + w0 = 0 -> how many trainable params? 3
+- Angle bet 2 vectors:
+- <img width="688" height="431" alt="Screenshot 2026-10-05 at 9 19 16 PM" src="https://github.com/user-attachments/assets/da2d4a85-e800-4342-9117-35d16d0940fd" />
+- ||x|| = root(x square + y square)
+
+- Unit vector:
+- <img width="859" height="545" alt="Screenshot 2026-10-05 at 10 03 58 PM" src="https://github.com/user-attachments/assets/26de536d-7edc-44cb-b05c-86b9ce995a22" />
 - 
+
+
+
+### Doubts
+- 13:00 - 15:00
+- Cartesian plane ?
+- How can ew represent the data points and line as vectors?:
+- <img width="861" height="538" alt="Screenshot 2026-10-05 at 9 16 44 PM" src="https://github.com/user-attachments/assets/1c8c89c3-247c-4c0b-94de-0ab38c4cf98d" />
+- Norm of 2 vectors?
+- L2 norm?
+- which will have smaller angle? <img width="653" height="322" alt="Screenshot 2026-10-05 at 9 24 06 PM" src="https://github.com/user-attachments/assets/5872754c-7472-49db-bddb-9fd8af30ba96" />
+- cos@, tan@, sin@ table
+- 40:00 +
+- 
+
