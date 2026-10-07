@@ -6,6 +6,10 @@
 - Invite Code for Learners: SPzMndxDct
 - https://www.desmos.com/calculator
 
+## Remaining to watch
+- Lecture 2
+- Lecture 3 after break
+
 ## Lec 1
 
 ### Links
@@ -73,8 +77,6 @@
 - 
 
 
-
-
 ### Doubts
 - 13:00 - 15:00
 - Cartesian plane ?
@@ -87,3 +89,17 @@
 - 40:00 +
 - 1:23:00 after break
 
+
+
+## Lec 4 - Linear Alzebra 4
+
+### Links
+- Lecture - https://www.scaler.com/academy/mentee-dashboard/class/580116/session
+- [Pre read](https://docs.google.com/document/d/1g2FmOVjvvVXnMV92fRsDVKprFqXgVkrG-lqNKa3Dbwk/edit?tab=t.0#heading=h.cn56i8kxnoq4)
+
+### Topics
+- 
+
+
+### Doubts
+- 
