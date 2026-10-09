@@ -10,6 +10,7 @@
 - Lecture 2
 - Lecture 3 after break
 - Lecture 4
+- Lecture 5
 
 ## Lec 1
 
