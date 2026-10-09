@@ -9,6 +9,7 @@
 ## Remaining to watch
 - Lecture 2
 - Lecture 3 after break
+- Lecture 4
 
 ## Lec 1
 
@@ -105,4 +106,18 @@
 
 
 ### Doubts
+
+
+
+
+
+## Lec 5 - 
+
+### Links
+- Lecture - https://www.scaler.com/academy/mentee-dashboard/class/580108/session?joinSession=1
+
+### Topics
 - 
+
+
+### Doubts
