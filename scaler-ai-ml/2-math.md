@@ -91,14 +91,17 @@
 
 
 
-## Lec 4 - Linear Alzebra 4
+## Lec 4 - Loss Minimization in classification
 
 ### Links
 - Lecture - https://www.scaler.com/academy/mentee-dashboard/class/580116/session
 - [Pre read](https://docs.google.com/document/d/1g2FmOVjvvVXnMV92fRsDVKprFqXgVkrG-lqNKa3Dbwk/edit?tab=t.0#heading=h.cn56i8kxnoq4)
 
 ### Topics
+- Agenda:
+- <img width="538" height="324" alt="Screenshot 2026-10-07 at 9 12 30 PM" src="https://github.com/user-attachments/assets/69d81218-5ad0-436e-b94b-add55765c954" />
 - 
+
 
 
 ### Doubts
