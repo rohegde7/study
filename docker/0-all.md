@@ -21,7 +21,7 @@
   - `hostport`: The port on your local machine
   - `containerport`: The port inside the container
   - `namespace/name`: The name of the image (usually in the format username/repo)
-  - `tag`: The version of the image (often latest)
+  - `tag`: The version of the image (often 'LATEST')
 - `docker ps` -> to see the running containers. `-a` -> all. Option shows the stopped containers as well. `-q` → quiet → show only container IDs in output.
 - `docker stop CONTAINER_ID`
 - `docker start CONTAINER_ID` -> start the already existing container
@@ -42,7 +42,7 @@
 #### Containers and Volumes
 - A container's file system is read-write, but when you delete a container, and start a new one from the same image, that new container starts from scratch again with a copy of the image. All stateful changes are lost.
 - A volume's file system is read-write, but it lives outside a single container. If a container uses a volume, then stateful changes can be persisted to the volume even if the container is deleted.
-- Volumes are often used by applications like Ghost, Grafana, or WordPress to persist data so that when a container is deleted and a new one is created the state of the application isn't lost. Containerized applications are typically thought of as ephemeral (temporary). If your application breaks just because you deleted and recreated a container... it's not a very good containerization!
+- Volumes are often used by applications like Ghost, Grafana, or WordPress to persist data so that when a container is deleted and a new one is created the state of the application isn't lost. Containerized applications are typically thought of as ephemeral (temporary). If your application breaks just because you deleted and recreated a container... it's NOT a very good containerization!
 - 
 
 
