@@ -11,6 +11,14 @@
   -   ex: docker pull docker/getting-started
 - `docker images`
 - `docker run`
+- For running `GHOST` image for boot.dev: \
+  `docker run -d \
+  -e NODE_ENV=development \
+  -e url=http://localhost:3001 \
+  -e database__connection__filename=/var/lib/ghost/content/data/ghost-dev.db \
+  -p 3001:2368 \
+  -v ghost-vol:/var/lib/ghost/content \
+  ghost`
 - `docker run -d -p hostport:containerport namespace/name:tag`
   - ex: docker run  docker/getting-started
   - docker run -d -p 8080:1234 docker/getting-started:latest
