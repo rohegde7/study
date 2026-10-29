@@ -39,6 +39,11 @@
 - `docker volume ls`
 - `docker volume inspect <VOL_NAME>`
 - `docker volume rm <VOL_NAME>`
+  
+- `docker exec CONTAINER_ID LINUX_COMMAND` -> execute a command inside a container
+  - `docker exec 5b208b4f3d91 touch hacker.log`
+  - `docker exec 5b208b4f3d91 netstat -ltnp`
+- 
 
 
 ### Commands help
