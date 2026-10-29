@@ -33,6 +33,11 @@
 - `docker volume rm <VOL_NAME>`
 
 
+### Commands help
+- `docker help` or `docker --help`
+- 
+
+
 ### Interview Questions
 - Why Are Containers Lightweight? as compared to VMs
 
