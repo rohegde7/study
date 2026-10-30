@@ -41,8 +41,10 @@
 - `docker volume rm <VOL_NAME>`
   
 - `docker exec CONTAINER_ID LINUX_COMMAND` -> execute a command inside a container
+  - `docker exec -it 6c4c09b0980f bin/sh` -> open shell in container
   - `docker exec 5b208b4f3d91 touch hacker.log`
   - `docker exec 5b208b4f3d91 netstat -ltnp`
+- `docker run --network none` -> stops container from making any network calls outside of it's container
 - 
 
 
