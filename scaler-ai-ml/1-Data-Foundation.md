@@ -14,5 +14,6 @@ two_d_data = np.array([votes, costs]).T
 
 ## Lecture 2: Food Delivery Data Exploration and analysis 2
 
-- https://colab.research.google.com/drive/1hjWA8rbujJjYUCfNs6WdeZuPXZ4TxYNV?usp=sharing Notebook
+- Notebook code https://colab.research.google.com/drive/1hjWA8rbujJjYUCfNs6WdeZuPXZ4TxYNV?usp=sharing 
+- Notebook notes https://colab.research.google.com/drive/15Ot3X6XwXmaVRVdEz037ILcmwDvbH5sA?usp=sharing#scrollTo=yuaFpkrdMIes
 - LoRA (in terms of matrix)
