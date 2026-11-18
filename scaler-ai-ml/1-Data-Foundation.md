@@ -17,3 +17,19 @@ two_d_data = np.array([votes, costs]).T
 - Notebook code https://colab.research.google.com/drive/1hjWA8rbujJjYUCfNs6WdeZuPXZ4TxYNV?usp=sharing 
 - Notebook notes https://colab.research.google.com/drive/15Ot3X6XwXmaVRVdEz037ILcmwDvbH5sA?usp=sharing#scrollTo=yuaFpkrdMIes
 - LoRA (in terms of matrix)
+
+## Lecture 2: Food Delivery Data Exploration and analysis 3
+- Notebook code: https://colab.research.google.com/drive/1ka5bVMAefQiuvqqAwZ6-yU0F3Z-bimvU?usp=sharing
+- Broadcasting
+- 
+
+### to read
+- np.arange
+- reshape
+- normal array vs numpy array
+- A @ B for matrix multi
+- 1:00 video just 5 mins before break
+- 1 hours 15 mins broadcastign
+- For A+B, where A = [1,2,3], B = [[1,2], [3,4]] ...Why doesnt it work just like LCM. 2*6 dim matrices after broadcasting.
+- 1 hour 25 mins
+- 
