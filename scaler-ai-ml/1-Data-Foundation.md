@@ -21,6 +21,7 @@ two_d_data = np.array([votes, costs]).T
 ## Lecture 2: Food Delivery Data Exploration and analysis 3
 - Notebook code: https://colab.research.google.com/drive/1ka5bVMAefQiuvqqAwZ6-yU0F3Z-bimvU?usp=sharing
 - Broadcasting
+- Z = W^T . X + b --> z = decision, t = transpose, w = weight / experience, x = input, b = bias
 - 
 
 ### to read
@@ -28,8 +29,16 @@ two_d_data = np.array([votes, costs]).T
 - reshape
 - normal array vs numpy array
 - A @ B for matrix multi
-- 1:00 video just 5 mins before break
-- 1 hours 15 mins broadcastign
 - For A+B, where A = [1,2,3], B = [[1,2], [3,4]] ...Why doesnt it work just like LCM. 2*6 dim matrices after broadcasting.
-- 1 hour 25 mins
+- See doubt resolution section
+
+## Lecture 3 | Food Delivery Data Exploration and analysis 4
 - 
+
+# All NP methods
+- np.tile
+- np.array
+- llama code github
+- np.vectoriese
+- A @ B
+- spliting and stocking 
