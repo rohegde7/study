@@ -18,7 +18,7 @@ two_d_data = np.array([votes, costs]).T
 - Notebook notes https://colab.research.google.com/drive/15Ot3X6XwXmaVRVdEz037ILcmwDvbH5sA?usp=sharing#scrollTo=yuaFpkrdMIes
 - LoRA (in terms of matrix)
 
-## Lecture 2: Food Delivery Data Exploration and analysis 3
+## Lecture 3: Food Delivery Data Exploration and analysis 3
 - Notebook code: https://colab.research.google.com/drive/1ka5bVMAefQiuvqqAwZ6-yU0F3Z-bimvU?usp=sharing
 - Broadcasting
 - Z = W^T . X + b --> z = decision, t = transpose, w = weight / experience, x = input, b = bias
@@ -32,13 +32,41 @@ two_d_data = np.array([votes, costs]).T
 - For A+B, where A = [1,2,3], B = [[1,2], [3,4]] ...Why doesnt it work just like LCM. 2*6 dim matrices after broadcasting.
 - See doubt resolution section
 
-## Lecture 3 | Food Delivery Data Exploration and analysis 4
-- 
+## Lecture 4 | Intro to PANDAS: Food Delivery Data Exploration and analysis 4
+- Code notes: https://colab.research.google.com/drive/1B0myMpw5v6CVSl7U6EodTVs__2i0wojB?usp=sharing
+- Notebook: https://colab.research.google.com/drive/1Zb6p_OzJlWVb8ZAn9c5IYqph56rjELaT?usp=sharing
+- Spliting v Stacking --> in spliting the dimentions are same but after stacking dimentions are not same
+- hstack vs vstack for 1D and 2D arrays --> hstack for 1D just concatenates because it has only 1 axis: 0
+- Pandas intro
+- [10 mins to Pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+
+## doubts
+- axis  / axes? right spelling? or diff or same ?
 
 # All NP methods
 - np.tile
 - np.array
+- np.concatenate() --> dimensions stay the same
+- axis --> 0 is cut the matrix horizontally, 1 is cut the matrix vertically
+- .shape()
+- .size()
+- .ndim
+- .T --> transpose
+- np.split(4) -> 4 equal parts - each one a separate array, so if total 4 elements are there then they will be set of 1 element each as 4 elements are divided into 4 equal parts which is 1 each in each part
+- np.split(array, 2, axis=1)
+- hstack
+- vstack
+- 
+
+# All Pandas topics / methods
+- pd.read_csv(CSV_FILE)
+- [10 mins to Pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+- 
+
+
+# All topics
 - llama code github
 - np.vectoriese
 - A @ B
-- spliting and stocking 
+- spliting and stacking -> 2 opposite operations -> in spliting the dimentions are same but after stacking dimentions are not same
+- 
